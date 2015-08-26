@@ -18,11 +18,10 @@
             <header>          
                 <nav>
                     <ul>
-                       
-                        <li><a href="AdministradorInicio.jsp" class="btn">Inicio</a></li>
-                         <li><a href="AdministradorCrearEntrenador.jsp" class="btn">Crear Entrenador</a></li>
-                        <li><a href="AdministradorCrearMaquina.jsp" class="btn">Crear Maquina</a></li>
-
+                        <li><a href="EntrenadorInicio.jsp" class="btn">Inicio</a></li>
+                        <li><a href="EntrenadorCrearDeportista.jsp" class="btn">Crear Deportista</a></li>
+                        <li><a href="EntrenadorCrearRutina.jsp" class="btn">Crear Rutina</a></li>
+                        <li><a href="EntrenadorDeportistas.jsp" class="btn">Deportistas</a></li>
                     </ul>
                 </nav>
 
@@ -53,22 +52,6 @@
                             </td>
                             <td>
                                 <input type="text" name ="Apellidos">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                Usuario:
-                            </td>
-                            <td>
-                                <input type="text" name ="Usuario">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                Contraseña:
-                            </td>
-                            <td>
-                                <input type="text" name ="Contraseña">
                             </td>
                         </tr>
                         <tr>
@@ -121,7 +104,7 @@
                         </tr>
                         <tr>
                             <td>
-                                Estado:
+                                Estado Civil:
                             </td>
                             <td>
                                 <input type="text" name ="Estado">
@@ -141,14 +124,6 @@
                             </td>
                             <td>
                                 <input type="text" name ="FIngreso">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                Especialidad:
-                            </td>
-                            <td>
-                                <input type="text" name ="Especialidad">
                             </td>
                         </tr>
                         <tr>
