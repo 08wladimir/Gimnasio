@@ -12,7 +12,7 @@ public class Conexion {
     public void conexion() throws SQLException {
 
         String dbURL = "jdbc:mysql://localhost:3306/----NombreBaseDeDatos-------";
-        String username = "---Ususario---";
+        String username = "---vikmar---";
         String password = "---Contraseña---";
 
         Connection conn = DriverManager.getConnection(dbURL, username, password);
