@@ -12,8 +12,8 @@ public class Conexion {
     public void conexion() throws SQLException {
 
         String dbURL = "jdbc:mysql://localhost:3306/----NombreBaseDeDatos-------";
-        String username = "-----Usuario-------";
-        String password = "----Contraseña-----";
+        String username = "walter";
+        String password = "arboleda";
 
         Connection conn = DriverManager.getConnection(dbURL, username, password);
         //Seleccion
