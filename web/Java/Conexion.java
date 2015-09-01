@@ -11,9 +11,9 @@ public class Conexion {
 
     public void conexion() throws SQLException {
 
-        String dbURL = "jdbc:mysql://localhost:3306/----NombreBaseDeDatos-------";
-        String username = "---Usuario---";
-        String password = "---Contraseña---";
+        String dbURL = "jdbc:mysql://localhost:3306/gymnasio";
+        String username = "root";
+        String password = "----";
 
         Connection conn = DriverManager.getConnection(dbURL, username, password);
         //Seleccion
@@ -21,7 +21,7 @@ public class Conexion {
 
         Statement statement = conn.createStatement();
         ResultSet result = statement.executeQuery(sql);
-
+        
     }
 
 }
